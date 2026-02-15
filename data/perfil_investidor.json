@@ -2,16 +2,49 @@
   {
     "id": "perfil_001",
     "tipo": "Conservador",
-    "descricao": "Prefere segurança e liquidez, aceita baixa rentabilidade."
+    "descricao": "Prefere segurança e liquidez, aceita baixa rentabilidade.",
+    "caracteristicas": [
+      "Prioriza estabilidade",
+      "Evita riscos",
+      "Busca liquidez imediata"
+    ],
+    "produtos_recomendados": [
+      "Tesouro Selic",
+      "LCI",
+      "Fundos DI"
+    ],
+    "horizonte_investimento": "Curto prazo (até 2 anos)"
   },
   {
     "id": "perfil_002",
     "tipo": "Moderado",
-    "descricao": "Busca equilíbrio entre risco e retorno, aceita alguma volatilidade."
+    "descricao": "Busca equilíbrio entre risco e retorno, aceita alguma volatilidade.",
+    "caracteristicas": [
+      "Aceita riscos moderados",
+      "Busca diversificação",
+      "Equilíbrio entre renda fixa e variável"
+    ],
+    "produtos_recomendados": [
+      "CDB",
+      "Fundo Multimercado",
+      "Tesouro IPCA"
+    ],
+    "horizonte_investimento": "Médio prazo (2 a 5 anos)"
   },
   {
     "id": "perfil_003",
     "tipo": "Arrojado",
-    "descricao": "Aceita riscos elevados em busca de maior rentabilidade."
+    "descricao": "Aceita riscos elevados em busca de maior rentabilidade.",
+    "caracteristicas": [
+      "Alta tolerância a risco",
+      "Busca rentabilidade superior",
+      "Aceita volatilidade"
+    ],
+    "produtos_recomendados": [
+      "Fundo de Ações",
+      "Criptomoedas",
+      "ETFs"
+    ],
+    "horizonte_investimento": "Longo prazo (acima de 5 anos)"
   }
 ]
