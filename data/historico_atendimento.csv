@@ -1,6 +1,4 @@
-data,canal,tema,resumo,resolvido
-2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
-2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
-2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
-2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
-2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+data,usuario,pergunta,resposta
+2026-02-01,João Silva,"Quais os riscos do Tesouro Direto?","O Tesouro Direto é seguro, mas pode ter risco de liquidez e variação da taxa de juros."
+2026-02-02,Ana Souza,"Simule R$ 10.000 em CDB a 12% por 2 anos","O valor final seria aproximadamente R$ 12.544."
+2026-02-03,Carlos Lima,"Qual a diferença entre CDB e Tesouro Selic?","O CDB pode ter maior rentabilidade, mas o Tesouro Selic tem liquidez diária e menor risco."
