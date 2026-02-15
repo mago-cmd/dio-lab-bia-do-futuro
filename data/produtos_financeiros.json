@@ -2,22 +2,61 @@
   {
     "id": "produto_001",
     "nome": "Tesouro Selic",
+    "tipo": "Renda Fixa",
     "risco": "Baixo",
     "liquidez": "Diária",
-    "indicacao": "Perfil conservador"
+    "rentabilidade": "Taxa Selic",
+    "indicacao": "Perfil conservador",
+    "descricao": "Título público com liquidez diária e baixo risco, ideal para reserva de emergência."
   },
   {
     "id": "produto_002",
     "nome": "CDB 12% a.a.",
+    "tipo": "Renda Fixa",
     "risco": "Moderado",
     "liquidez": "Prazo 2 anos",
-    "indicacao": "Perfil moderado"
+    "rentabilidade": "12% ao ano",
+    "indicacao": "Perfil moderado",
+    "descricao": "Certificado de Depósito Bancário com rentabilidade fixa e prazo determinado."
   },
   {
     "id": "produto_003",
     "nome": "Fundo de Ações",
+    "tipo": "Renda Variável",
     "risco": "Alto",
     "liquidez": "D+30",
-    "indicacao": "Perfil arrojado"
+    "rentabilidade": "Variável",
+    "indicacao": "Perfil arrojado",
+    "descricao": "Fundo de investimento em ações, indicado para quem busca maior rentabilidade e aceita volatilidade."
+  },
+  {
+    "id": "produto_004",
+    "nome": "LCI 10% a.a.",
+    "tipo": "Renda Fixa",
+    "risco": "Baixo",
+    "liquidez": "Prazo 1 ano",
+    "rentabilidade": "10% ao ano",
+    "indicacao": "Perfil conservador",
+    "descricao": "Letra de Crédito Imobiliário isenta de IR, com prazo de 1 ano e baixo risco."
+  },
+  {
+    "id": "produto_005",
+    "nome": "Fundo Multimercado",
+    "tipo": "Híbrido",
+    "risco": "Moderado",
+    "liquidez": "D+15",
+    "rentabilidade": "Variável",
+    "indicacao": "Perfil moderado",
+    "descricao": "Fundo que mistura renda fixa e variável, buscando equilíbrio entre risco e retorno."
+  },
+  {
+    "id": "produto_006",
+    "nome": "Criptomoedas",
+    "tipo": "Renda Variável",
+    "risco": "Muito Alto",
+    "liquidez": "Imediata",
+    "rentabilidade": "Alta volatilidade",
+    "indicacao": "Perfil arrojado",
+    "descricao": "Ativos digitais como Bitcoin e Ethereum, com alta volatilidade e risco elevado."
   }
 ]
