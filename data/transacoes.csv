@@ -1,11 +1,13 @@
-data,descricao,categoria,valor,tipo
-2025-10-01,Salário,receita,5000.00,entrada
-2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
-2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
-2025-10-12,Uber,transporte,45.00,saida
-2025-10-15,Conta de Luz,moradia,180.00,saida
-2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+data,descricao,categoria,valor,forma_pagamento,local
+2026-02-01,Supermercado,Alimentação,450,Cartão de Crédito,BH Supermercados
+2026-02-03,Streaming,Entretenimento,55,Débito Automático,Netflix
+2026-02-05,Farmácia,Saúde,120,Cartão de Débito,Droga Minas
+2026-02-07,Restaurante,Alimentação,200,Cartão de Crédito,Outback
+2026-02-10,Transporte,Transporte,75,Dinheiro,Uber
+2026-02-12,Academia,Saúde,150,Cartão de Débito,SmartFit
+2026-02-15,Livros,Educação,90,Cartão de Crédito,Amazon
+2026-02-18,Shopping,Entretenimento,320,Cartão de Crédito,BH Shopping
+2026-02-20,Conta de Luz,Moradia,180,Débito Automático,CEMIG
+2026-02-22,Conta de Água,Moradia,95,Débito Automático,COPASA
+2026-02-25,Viagem,Entretenimento,1200,Cartão de Crédito,Latam Airlines
+2026-02-28,Investimento,Financeiro,500,Transferência,Corretora XP
