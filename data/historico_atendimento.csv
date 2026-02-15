@@ -1,4 +1,11 @@
-data,usuario,pergunta,resposta
-2026-02-01,João Silva,"Quais os riscos do Tesouro Direto?","O Tesouro Direto é seguro, mas pode ter risco de liquidez e variação da taxa de juros."
-2026-02-02,Ana Souza,"Simule R$ 10.000 em CDB a 12% por 2 anos","O valor final seria aproximadamente R$ 12.544."
-2026-02-03,Carlos Lima,"Qual a diferença entre CDB e Tesouro Selic?","O CDB pode ter maior rentabilidade, mas o Tesouro Selic tem liquidez diária e menor risco."
+data,usuario,pergunta,resposta,categoria
+2026-01-15,João Silva,"Quais os riscos do Tesouro Direto?","O Tesouro Direto é seguro, mas pode ter risco de liquidez e variação da taxa de juros.","Investimentos"
+2026-01-16,Ana Souza,"Simule R$ 10.000 em CDB a 12% por 2 anos","O valor final seria aproximadamente R$ 12.544.","Simulação"
+2026-01-17,Carlos Lima,"Qual a diferença entre CDB e Tesouro Selic?","O CDB pode ter maior rentabilidade, mas o Tesouro Selic tem liquidez diária e menor risco.","Comparação"
+2026-01-18,Mariana Alves,"Quais produtos são indicados para perfil conservador?","Tesouro Selic, LCI e Fundos DI são opções seguras.","Recomendação"
+2026-01-19,Pedro Santos,"Como funciona o Fundo Multimercado?","Mistura renda fixa e variável, buscando equilíbrio entre risco e retorno.","Explicação"
+2026-01-20,João Silva,"Quais os custos de investir em ações?","Custos incluem corretagem, taxa de custódia e impostos sobre ganhos.","Investimentos"
+2026-01-21,Ana Souza,"Vale a pena investir em criptomoedas?","Criptomoedas têm alta volatilidade e risco elevado, indicadas apenas para perfil arrojado.","Recomendação"
+2026-01-22,Carlos Lima,"Qual a diferença entre LCI e CDB?","LCI é isenta de IR e ligada ao setor imobiliário, enquanto CDB tem tributação e pode ter maior rentabilidade.","Comparação"
+2026-01-23,Mariana Alves,"Como montar uma reserva de emergência?","Use produtos de liquidez diária e baixo risco, como Tesouro Selic.","Educação Financeira"
+2026-01-24,Pedro Santos,"Quais os benefícios de diversificar investimentos?","Diversificação reduz riscos e aumenta chances de retorno equilibrado.","Educação Financeira"
