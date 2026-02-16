@@ -19,7 +19,9 @@ A Mag simula o comportamento de uma orientadora financeira, ajudando usuários a
 ├── examples/      # Exemplos de interações
 ├── src/           # Código principal da aplicação
 │   └── app.py
-└── README.md      # Este arquivo
+├── requirements.txt   # Lista de dependências
+└── README.md          # Documentação principal
+
 ```
 
 ## 🚀 Quickstart (Instalação Rápida)
