@@ -1,8 +1,5 @@
 # 🎤 Pitch da Mag – Orientadora de Investimento (3 minutos)
 
-> [!TIP]  
-> Você pode usar alguns slides pra apoiar no seu Pitch e mostrar sua solução na prática.
-
 ---
 
 ## Roteiro Sugerido
