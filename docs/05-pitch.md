@@ -49,6 +49,8 @@ No vídeo, a Mag mostra na prática:
 ---
 
 ## Observações
-- [O pitch foi baseado em interações reais registradas em PDF.]((https://drive.google.com/file/d/19fK39jS-zmGcT-dK2YQSM3C8eunJmITy/view?usp=sharing))
+- O pitch foi baseado em interações reais registradas em PDF  
+  [📄 Veja o PDF](https://drive.google.com/file/d/19fK39jS-zmGcT-dK2YQSM3C8eunJmITy/view?usp=sharing)
 - A Mag demonstrou clareza, assertividade e retenção de contexto durante os testes.  
 - O vídeo mostra tanto o problema quanto a solução de forma prática e envolvente.
+
