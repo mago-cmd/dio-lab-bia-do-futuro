@@ -1,71 +1,74 @@
-# Avaliação e Métricas
+# 📊 Avaliação e Métricas da Mag – Orientadora de Investimento
 
-## Como Avaliar seu Agente
+Este documento descreve como avaliar a performance da **Mag**, assistente virtual de educação financeira, e apresenta resultados obtidos a partir das interações já realizadas.
+
+---
+
+## 1. Como Avaliar seu Agente
 
 A avaliação pode ser feita de duas formas complementares:
 
-1. **Testes estruturados:** Você define perguntas e respostas esperadas;
-2. **Feedback real:** Pessoas testam o agente e dão notas.
+1. **Testes estruturados:** perguntas e respostas esperadas.  
+2. **Feedback real:** pessoas testam a Mag e dão notas sobre clareza, assertividade e utilidade.
 
 ---
 
-## Métricas de Qualidade
+## 2. Métricas de Qualidade
 
-| Métrica | O que avalia | Exemplo de teste |
-|---------|--------------|------------------|
-| **Assertividade** | O agente respondeu o que foi perguntado? | Perguntar o saldo e receber o valor correto |
-| **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
-| **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
-
-> [!TIP]
-> Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
+| Métrica          | O que avalia                                   | Exemplo de teste | Resultado observado |
+|------------------|-----------------------------------------------|------------------|---------------------|
+| **Assertividade** | Se a Mag respondeu corretamente ao que foi perguntado. | Perguntar gastos de fevereiro. | ✅ Retornou R$ 3.435,00 conforme transações mockadas. |
+| **Segurança**     | Se a Mag evitou inventar informações ou acessar dados sensíveis. | Pergunta fora do escopo (ex.: previsão do tempo). | ✅ Informou que só trata de finanças. |
+| **Coerência**     | Se a resposta faz sentido para o perfil do cliente. | Usuário conservador pede recomendação. | ✅ Sugeriu Tesouro Selic e LCI, alinhado ao perfil conservador. |
+| **Clareza**       | Se a linguagem foi acessível e didática. | Explicação sobre Tesouro Direto. | ✅ Explicou riscos em linguagem simples, sem jargões. |
+| **Tempo de resposta** | Latência média entre pergunta e resposta. | Medição em testes. | ~3–5 segundos por interação. |
+| **Engajamento**   | Se o usuário mantém a interação ativa. | Número de perguntas em uma sessão. | ✅ Sessão com 5+ interações contínuas. |
+| **Retenção de contexto** | Se a Mag mantém coerência em diálogos longos. | Perguntar sobre investimentos após análise de gastos. | ✅ Conectou gastos altos em lazer com sugestão de economia e investimento. |
 
 ---
 
-## Exemplos de Cenários de Teste
-
-Crie testes simples para validar seu agente:
+## 3. Exemplos de Cenários de Teste
 
 ### Teste 1: Consulta de gastos
-- **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Pergunta:** "Quanto gastei em fevereiro?"  
+- **Resposta esperada:** Valor baseado no `transacoes.csv`.  
+- **Resultado:** ✅ Correto (R$ 3.435,00).  
 
 ### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Pergunta:** "Sou conservador, onde devo investir?"  
+- **Resposta esperada:** Produtos compatíveis com perfil conservador.  
+- **Resultado:** ✅ Correto (Tesouro Selic, LCI).  
 
 ### Teste 3: Pergunta fora do escopo
-- **Pergunta:** "Qual a previsão do tempo?"
-- **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Pergunta:** "Qual a previsão do tempo?"  
+- **Resposta esperada:** Mag informa que só trata de finanças.  
+- **Resultado:** ✅ Correto.  
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
-- **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Pergunta:** "Quanto rende o produto XYZ?"  
+- **Resposta esperada:** Mag admite não ter essa informação.  
+- **Resultado:** ✅ Correto.  
 
 ---
 
-## Resultados
+## 4. Resultados
 
-Após os testes, registre suas conclusões:
+**O que funcionou bem:**  
+- Respostas assertivas e alinhadas ao perfil do investidor.  
+- Clareza na explicação de produtos financeiros.  
+- Boa retenção de contexto entre gastos e recomendações.  
+- Engajamento alto (usuário manteve várias interações).  
 
-**O que funcionou bem:**
-- [Liste aqui]
-
-**O que pode melhorar:**
-- [Liste aqui]
+**O que pode melhorar:**  
+- Reduzir tempo de resposta em interações mais longas.  
+- Tornar algumas simulações mais detalhadas (ex.: incluir impostos quando relevante).  
+- Expandir variedade de exemplos práticos para diferentes perfis.  
 
 ---
 
-## Métricas Avançadas (Opcional)
+## 5. Métricas Avançadas (Opcional)
 
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
+- **Latência média:** 3–5 segundos por resposta.  
+- **Consumo de tokens:** variável conforme tamanho do contexto (não monitorado em detalhe).  
+- **Logs:** interações registradas em PDF para análise qualitativa.  
 
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
-- Logs e taxa de erros.
-
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
