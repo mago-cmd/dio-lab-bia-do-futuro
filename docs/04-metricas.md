@@ -68,7 +68,7 @@ A avaliação pode ser feita de duas formas complementares:
 
 ## 5. Métricas Avançadas (Opcional)
 
-- **Latência média:** 3–5 segundos por resposta.  
+- **Latência média:** 30-50 segundos por resposta.  
 - **Consumo de tokens:** variável conforme tamanho do contexto (não monitorado em detalhe).  
 - **Logs:** interações registradas em PDF para análise qualitativa.  
 
