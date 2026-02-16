@@ -21,7 +21,7 @@ A avaliação pode ser feita de duas formas complementares:
 | **Segurança**     | Se a Mag evitou inventar informações ou acessar dados sensíveis. | Pergunta fora do escopo (ex.: previsão do tempo). | ✅ Informou que só trata de finanças. |
 | **Coerência**     | Se a resposta faz sentido para o perfil do cliente. | Usuário conservador pede recomendação. | ✅ Sugeriu Tesouro Selic e LCI, alinhado ao perfil conservador. |
 | **Clareza**       | Se a linguagem foi acessível e didática. | Explicação sobre Tesouro Direto. | ✅ Explicou riscos em linguagem simples, sem jargões. |
-| **Tempo de resposta** | Latência média entre pergunta e resposta. | Medição em testes. | ~3–5 segundos por interação. |
+| **Tempo de resposta** | Latência média entre pergunta e resposta. | Medição em testes. | ~30–50 segundos por interação. |
 | **Engajamento**   | Se o usuário mantém a interação ativa. | Número de perguntas em uma sessão. | ✅ Sessão com 5+ interações contínuas. |
 | **Retenção de contexto** | Se a Mag mantém coerência em diálogos longos. | Perguntar sobre investimentos após análise de gastos. | ✅ Conectou gastos altos em lazer com sugestão de economia e investimento. |
 
