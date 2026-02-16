@@ -1,16 +1,14 @@
-# 🎤 Pitch da Mag – Orientadora de Investimento (3 minutos)
+# 🎤 Pitch da Mag – Orientadora de Investimento
 
 ---
 
-## Roteiro Sugerido
-
-### 1. O Problema (30 seg)
+### 1. O Problema
 Muitas pessoas têm dificuldade em organizar seus gastos mensais e entender conceitos básicos de investimento.  
 Isso gera insegurança financeira e impede que elas criem uma reserva ou planejem objetivos futuros.
 
 ---
 
-### 2. A Solução (1 min)
+### 2. A Solução
 A **Mag** é uma assistente virtual de educação financeira que:  
 - Analisa gastos mensais e identifica padrões.  
 - Explica produtos financeiros em linguagem simples e acessível.  
@@ -19,7 +17,7 @@ A **Mag** é uma assistente virtual de educação financeira que:
 
 ---
 
-### 3. Demonstração (1 min)
+### 3. Demonstração
 No vídeo, a Mag mostra na prática:  
 - **Resumo dos gastos de fevereiro**: R$ 3.435,00, com destaque para viagens (35% do orçamento).  
 - **Dicas de economia**: reduzir restaurantes e planejar melhor viagens.  
@@ -28,7 +26,7 @@ No vídeo, a Mag mostra na prática:
 
 ---
 
-### 4. Diferencial e Impacto (30 seg)
+### 4. Diferencial e Impacto
 - **Diferencial**: IA Generativa (Google Gemini) integrada com dados mockados, linguagem empática e didática, e foco em educação financeira.  
 - **Impacto**: democratizar o acesso à educação financeira, ajudando pessoas comuns a entenderem seus gastos e começarem a investir com segurança.  
 
