@@ -43,7 +43,7 @@ Validar se a **Mag** consegue:
 
 ## Documentação das Interações
 
-📄 [Veja o PDF com as interações](https://drive.google.com/file/d/19fK39jS-zmGcT-dK2YQSM3C8eunJmITy/view?usp=sharing)
+📄 Veja as interações no [PDF](https://drive.google.com/file/d/19fK39jS-zmGcT-dK2YQSM3C8eunJmITy/view?usp=sharing)
 
 ---
 
@@ -51,3 +51,4 @@ Validar se a **Mag** consegue:
 - O teste foi baseado em interações reais registradas em PDF.  
 - A Mag demonstrou clareza, assertividade e retenção de contexto durante os testes.  
 - As respostas mostraram tanto o problema quanto a solução de forma prática e envolvente.
+
